@@ -9,8 +9,11 @@ docker build .
 docker run -d --name db -p 8091-8094:8091-8094 -p 11210:11210 -p 9100-9105:9100-9105 <image_id>
 
 ![alt text](https://github.com/roadgoat/AdaptiveIndexDemo/blob/master/CreateDockerFile.png)
+str
+You can connect to the Couchbase node by going to http://127.0.0.0.1:8091  
 
-You can connect to the Couchbase node by going to http://127.0.0.0.1:8091
+User: Administrator
+Password: password
 
 The following test N1QL statements can be run against this data set:
 
