@@ -37,5 +37,6 @@ WHERE App_Key = "AD-AAB-AAB-XTE" AND
 ' AND
       type = "BrowserSnapshots"    
       
-      
+
+![alt text](https://github.com/roadgoat/AdaptiveIndexDemo/blob/master/QuerySample.png)
 
