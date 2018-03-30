@@ -5,6 +5,7 @@ This projects consists of a Dockerfile, a configuration shell script that is run
 To Create the Container, you must have Docker Version 18.03.0 or higher.  Download this repository, unzip the contents to a working directory, go to that directory from the command line and run the following:
 
 docker build .
+
 docker run -d --name db -p 8091-8094:8091-8094 -p 11210:11210 -p 9100-9105:9100-9105 <image_id>
 
 You can connect to the Couchbase node by going to http://127.0.0.0.1:8091
