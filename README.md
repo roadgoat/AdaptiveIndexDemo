@@ -15,6 +15,8 @@ You can connect to the Couchbase node by going to http://127.0.0.0.1:8091
 User: Administrator
 Password: password
 
+![alt text](https://github.com/roadgoat/AdaptiveIndexDemo/blob/master/Screen%20Shot%202018-03-30%20at%2010.14.53%20AM.png)
+
 The following test N1QL statements can be run against this data set:
 
 select count(Crash_Id), Crash_Group_ID from Metadata where
