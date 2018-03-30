@@ -1,4 +1,4 @@
-# AdaptiveIndexDemo
+# Adaptive Index Demo
 Adaptive index demo - Dockerfile and scripts.  Couchbase 5.x and greater.
 This projects consists of a Dockerfile, a configuration shell script that is run in the Ubuntu container and a Couchbase back up file.  This project was built with Couchbase 5.1.  
 
