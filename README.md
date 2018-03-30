@@ -8,7 +8,7 @@ docker build .
 
 docker run -d --name db -p 8091-8094:8091-8094 -p 11210:11210 -p 9100-9105:9100-9105 <image_id>
 
-https://github.com/roadgoat/AdaptiveIndexDemo/blob/master/CreateDockerFile.png
+![alt text](https://github.com/roadgoat/AdaptiveIndexDemo/blob/master/CreateDockerFile.png)
 
 You can connect to the Couchbase node by going to http://127.0.0.0.1:8091
 
